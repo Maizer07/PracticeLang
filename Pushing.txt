@@ -1,0 +1,30 @@
+1st line of coding
+code .(enter)
+git init -> Checks the item of repository.
+dir (There is a secret file hidden, check the "hide hidden items.")
+git status
+git add (filename) -> To put the git into the staging area
+git commit -m "first commit"
+
+2nd line of coding
+git status - The index.html will turn red again because you saved after editing it.
+git add (filename) - To put it into the staging area again
+git commit -m "second commit" - 
+git log --oneline -> the second commit becomes the master because you edited the first commit
+
+3rd line of coding
+git status
+git add (filename)
+git commit -m "third commit"
+git log --oneline
+
+4th line
+git config --local user.email "(enter your email here that is associated with your repositories - mine is rommel.ramos.iics@ust.edu.ph)"
+git remote add origin https://github.com/Maizer07/proj-2itb.git -> to send file to github, only creating a copy
+git push -u origin master -> to push the file to the github
+
+5th line
+md "any name"
+cd "any name"
+git clone https://github.com/Maizer07/proj-2itb.git
+</html>
